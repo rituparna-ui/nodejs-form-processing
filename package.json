@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-forms",
+  "version": "1.0.0",
+  "description": "NodeJS REST Form Processing",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "nodemon ./server/index.js",
+    "start": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rituparna-ui/nodejs-form-processing.git"
+  },
+  "keywords": [
+    "API",
+    "Express",
+    "Forms"
+  ],
+  "author": "Rituparna Warwatkar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rituparna-ui/nodejs-form-processing/issues"
+  },
+  "homepage": "https://github.com/rituparna-ui/nodejs-form-processing#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
